@@ -13,7 +13,7 @@ API_TOKEN = "7782454356:AAHErZCbWW7FaOHpuFXe1KG4s8xO_AWTITo"  # ← Bu yerga bot
 bot = Bot(token=API_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher(storage=MemoryStorage())
 
-ADMINS = [6655165931]  # ← O'zingizning Telegram ID'ingizni yozing
+ADMINS = [6655165931,151222479]  # ← O'zingizning Telegram ID'ingizni yozing
 user_data = {}
 
 # Menular
