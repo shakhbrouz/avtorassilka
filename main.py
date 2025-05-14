@@ -13,12 +13,12 @@ from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 
-API_TOKEN = "YOUR_BOT_TOKEN_HERE"  # ← Bot tokeningizni yozing
+API_TOKEN = "7782454356:AAHErZCbWW7FaOHpuFXe1KG4s8xO_AWTITo"  # ← Bot tokeningizni yozing
 
 bot = Bot(token=API_TOKEN, default=DefaultBotProperties(parse_mode=ParseMode.HTML))
 dp = Dispatcher(storage=MemoryStorage())
 
-ADMINS = [6655165931, 222333444, 555666777]
+ADMINS = [6655165931, 151222479, 555666777]
 user_data = {}
 GROUPS = set()  # Guruhlar ro'yxati
 
